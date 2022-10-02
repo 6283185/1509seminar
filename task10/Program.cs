@@ -20,3 +20,4 @@ else
 {
     Console.Write((number % 100) / 10);
 }
+
