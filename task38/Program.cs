@@ -49,5 +49,5 @@ double DifferenceBetweenMinAndMaxValue(double[] array)
 
 double[] arrayRandInt = CreateArrayRndInt(10, 0, 99);
 PrintArray(arrayRandInt);
-double difference = DifferenceBetweenMinAndMaxValue(arrayRandInt);
+double difference =Math.Round(DifferenceBetweenMinAndMaxValue(arrayRandInt), 1, MidpointRounding.ToZero);
 Console.WriteLine($"Разница между максимальным и минимальным значениями массива = {difference}");
